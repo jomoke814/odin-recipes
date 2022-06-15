@@ -1,0 +1,36 @@
+body {
+    background-color: #FFCC8F;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    display: inline-block;
+}
+
+
+.content {
+    text-align: center;
+}
+
+#top {
+    display: inline-block;
+    padding: 50px auto;
+}
+
+.odin-logo {
+    height: 3%;
+    width: 3%;
+    display: inline-block;
+    
+}
+
+.sora-gif {
+    border-radius: 25px;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
