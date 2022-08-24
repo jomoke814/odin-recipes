@@ -8,29 +8,71 @@ h1 {
     display: inline-block;
 }
 
+/* h2 {
+    margin: 50px;
+} */
+
+.header {
+    min-height: 400px;
+}
+
 
 .content {
     text-align: center;
 }
 
 #top {
-    display: inline-block;
-    padding: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .odin-logo {
     height: 3%;
     width: 3%;
-    display: inline-block;
-    
+    display: inline-block;   
 }
 
 .sora-gif {
     border-radius: 25px;
 }
 
+.recipes {
+    min-height: 400px;
+}
+
 ul {
-    display: table;
-    margin: 0 auto;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 50px 200px;
+}
+
+li img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+li img:hover {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
